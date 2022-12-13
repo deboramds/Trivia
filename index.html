@@ -1,0 +1,66 @@
+<!DOCTYPE html
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JavaScript Quiz</title>
+    <style>
+        body {
+          background-color: grey;
+          color: beige;
+          font: normal 20pt arial;
+         }
+        h1 {color :blueviolet}
+
+        input, button {
+          margin: 16px;
+        }
+   
+    </style>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <main>
+    <h1>Olá, estudante!!</h1>
+    <p>Você entende tudo  sobre Javascript?</p>
+    <p>Vamos testar seu conhecimento!!</p>
+    <button type="submit">Vamo lá</button>
+    <h3>O valor de uma constante pode ser mudado após sua declaração?</h3>
+      <label for="first_question">
+        <input id ="first_question" type="radio" name='alternativa' value= 'question'>Sim, desde que a constante não tenha sido usada. <br>
+      </label>
+      <label for="second_question">
+        <input id="second_question" type="radio" name="alternativa" value= 'question' onclick="alert('Muito bem, Resposta Correta!')">Não, uma vez o valor não pode ser modificado. <br>
+      </label>
+      <label for="third_question">
+        <input id="third_question" type="radio" name="alternativa" value="question">Sim, uma constate pode ter seu valor mutável. <br>
+      </label>
+    <button onclick="Você clicou o resultado">Ver Resultados</button>
+    <h3>Qual objetivo literal abaixo está correto?</h3>
+      <label for="first_question">
+        <input id="first_question" type="radio" name="alternativa" value ='question'/> VAR obj = { nome = 'nome' } <br>
+      </label>
+      <label for="second_question">
+        <input id="second_question" type="radio" name="alternativa" value='question'/> VAR obj = nome = 'Meu nome' <br>
+      </label>
+      <label for="third_question">
+        <input id="third_question" type="radio" name="alternativa" value="question" onclick="alert('Parabéns, resposta correta :D')"/> VAR obj { nome : ' meu nome ' } <br>
+      </label>
+    <button onclick="Você clicou o resultado">Ver Resultados</button>
+    <h3>Qual definição de array está incorreta?</h3>
+      <label for="first_question">
+        <input id="first_question" type="radio" name="alternativa" value="question" onclick="alert('Muito bom, você terminou o quiz! =D')"/>VAR frutas = (array) list (maçã <br>
+      </label>
+      <label for="second_question">
+        <input id="second_question" type="radio" name="alternativa" value="question"/>VAR frutas <br>
+      </label>
+      <label for="third_question">
+        <input id="third_question" type="radio" name="alternativa" value="question"/>VAR frutas = ['maçã', 'uva']; <br>
+      </label>
+      <button onclick="Você clicou no resultado">Ver Resultados</button>
+    
+<script> 
+const greeting = prompt("Qual e seu nome?");
+</script>
+  </main>
+</body>
+</html>
